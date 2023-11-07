@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    container_name: app
+    image: varshacv309/prod:latest
+    ports:
+      - "80:80"
